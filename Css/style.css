@@ -3,10 +3,115 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: Roboto-Regular, "Helvetica Neue", Helvetica, Tahoma, Arial,
+    Sans-serif;
+  background: #e7e8ec;
+  color: #999;
+  font-size: 12px;
+}
 header {
-  background-color: orangered;
+  background-color: #f85606;
 }
 .container {
   width: 80%;
-  margin: o auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.container .h-text {
+  display: flex;
+  gap: 20px;
+  font-size: 15px;
+}
+
+.container .darazicons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: rgba(000, 000, 000, 0.3);
+  padding: 5px 10px;
+  border-radius: 0 0px 10px 10px;
+}
+.darazicons img {
+  width: 20px;
+}
+.darazicons span {
+  font-size: 13px;
+}
+.navbar {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.navbar .search {
+  border-radius: 10px;
+  width: 60%;
+  padding: 10px 30px;
+  height: 5vh;
+  background-color: white;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+.navbar .search input {
+  border: none;
+  width: 80%;
+}
+.navbar .search i {
+  color: #f85606;
+  padding: 10px 12px;
+  position: absolute;
+  right: 20px;
+  top: 2px;
+  background-color: #ffe1d2;
+}
+.navbar button {
+  margin-left: 10px;
+}
+/* Hero Section */
+section {
+
+  width: 80%;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 300px auto;
+  grid-template-rows: 400px;
+  gap: 20px;
+}
+
+section .sidebar{
+  background-color: #fff;
+  border-radius: 10px;
+}
+section .slider{
+  animation: slider 10s 9s infinite ;
+  background-image: url(../Photo/banner1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+@keyframes slider{
+  0%{
+    background-image: url("../Photo/banner2.jpg");
+    
+  }
+  25%{
+    background-image: url("../Photo/banner3.jpg");
+  }
+  50%{
+    background-image: url("../Photo/banner4.jpg");
+  }
+  75%{
+    background-image: url("../Photo/banner5.jpg");
+  }
+  100%{
+    background-image: url("../Photo/banner6.jpg");
+  }
 }
