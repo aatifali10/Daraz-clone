@@ -45,9 +45,25 @@ header {
   display: flex;
   width: 80%;
   margin: 0 auto;
+  justify-content: space-around;
   align-items: center;
+  padding: 10px 0;
 }
-
+.navbar img {
+  width: 120px;
+  height: 48px;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  font-size: 25px;
+  color: white;
+  list-style: none;
+}
+.navbar ul li span {
+  font-size: 14px;
+}
 .navbar .search {
   border-radius: 10px;
   width: 60%;
@@ -64,10 +80,11 @@ header {
 }
 .navbar .search i {
   color: #f85606;
-  padding: 10px 12px;
+  padding: 8px 14px;
   position: absolute;
+  border-radius: 6px;
   right: 20px;
-  top: 2px;
+  top: 5px;
   background-color: #ffe1d2;
 }
 .navbar button {
@@ -106,7 +123,17 @@ section .sidebar ul li {
   color: #757575;
   cursor: pointer;
 }
-
+section .sidebar ul li a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #999;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+section .sidebar ul li a:hover {
+  color: #f85606;
+}
 .carousel {
   position: relative;
   width: 100%;
@@ -172,27 +199,6 @@ section .sidebar ul li {
   background-color: #fff;
   border: 1px solid #fff;
 }
-
-/* For mobile screens */
-@media (max-width: 767px) {
-  .carousel {
-    height: 250px;
-  }
-
-  .carousel img {
-    height: auto;
-    object-fit: fill;
-  }
-
-  .carousel-indicators,
-  .carousel-indicator {
-    display: none;
-  }
-
-  .carousel i {
-    top: 17vh;
-  }
-}
 /* payment */
 .payment {
   background-color: #fff1eb;
@@ -247,16 +253,15 @@ section .sidebar ul li {
 .items ul li a span {
   margin-top: 20px;
   font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
+  font-weight: 600;
+  font-size: 15px;
   text-align: center;
   color: rgba(0, 0, 0, 0.87);
+}
+.items ul li a span:hover {
+  color: #f85606;
 }
 .items ul li a img {
   width: 80px;
   height: 80px;
-}
-.items ul li a::after {
-  border: 1px solid rgba(0, 0, 0, 0.1);
 }
