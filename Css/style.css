@@ -267,10 +267,7 @@ section .sidebar ul li a:hover {
 }
 
 /* Categories */
-h4{
-  margin-top: 20px;
-  
-}
+
 .categories {
   display: flex;
   justify-content: space-around;
@@ -278,6 +275,11 @@ h4{
   width: 80%;
   margin: 0 auto;
   text-align: center;
+  margin-top: 20px;
+}
+.categories-items:hover{
+  box-shadow: 2px 2px #757575;
+  transform: scale(1);
 }
 .categories-items {
   width: 12.5%;
@@ -296,3 +298,5 @@ h4{
   color: #212121;
   padding-bottom: 20px;
 }
+/* just for you */
+
