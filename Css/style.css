@@ -265,3 +265,34 @@ section .sidebar ul li a:hover {
   width: 80px;
   height: 80px;
 }
+
+/* Categories */
+h4{
+  margin-top: 20px;
+  
+}
+.categories {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.categories-items {
+  width: 12.5%;
+  height: 165.5px;
+  border-right: 1px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
+  background-color: #fff;
+  padding: 15px;
+}
+.categories-items img {
+  width: 100%;
+}
+.categories-items span {
+  margin: 8px 12px 0;
+  font-size: 14px;
+  color: #212121;
+  padding-bottom: 20px;
+}
