@@ -268,14 +268,79 @@ section .sidebar ul li a:hover {
   height: 80px;
 }
 
+/* flash sale */
+.sale {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #fff;
+  padding: 10px 0;
+}
+.sale-now {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  align-items: center;
+  border-bottom: #757575;
+  border-width: 1px;
+  padding: 10px;
+}
+.sale-now button {
+  font-weight: 500;
+  font-size: 14px;
+  float: right;
+  display: block;
+  border: 1px solid #f85606;
+  border-radius: 2px;
+  color: #f85606;
+  height: 35px;
+  background-color: transparent;
+  line-height: 35px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 11px;
+  margin-top: 13px;
+}
+.end {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.end h3 {
+  color: #f85606;
+}
+.end h5 {
+  margin-left: 40px;
+  font-size: 14px;
+  color: #202020;
+}
+.end span {
+  border-radius: 2px;
+  font-weight: 500;
+  margin: 12px 6px;
+  font-size: 16px;
+  color: #fff;
+  background-color: orangered;
+  text-align: center;
+  width: 40px;
+  height: 35px;
+  line-height: 35px;
+}
+.sale-items {
+  width: 188px;
+}
+.sale-items img {
+  width: 188px;
+  height: 188px;
+}
 /* Categories */
 
 .categories {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  width: 80%;
-  margin: 0 auto;
   text-align: center;
   margin-top: 20px;
 }
@@ -306,15 +371,13 @@ section .sidebar ul li a:hover {
   margin: 0 auto;
 }
 .container h1 {
-  font-size: 30px;
-  color: black;
+  font-family: Roboto-Regular;
+  font-size: 22px;
+  color: #000;
 }
 
 .just {
   display: flex;
-  /* gap: 10px; */
-  width: 80%;
-  margin: 0 auto;
   flex-wrap: wrap;
 }
 .card-for {
