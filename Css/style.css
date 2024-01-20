@@ -284,6 +284,7 @@ section .sidebar ul li a:hover {
   align-items: center;
   border-bottom: #d5d5d5 1px solid;
   padding: 10px;
+  margin-top: 10px;
 }
 .sale-now button {
   font-weight: 500;
@@ -325,6 +326,7 @@ section .sidebar ul li a:hover {
   width: 188px;
   padding: 10px;
 }
+
 .sale-items span {
   height: 36px;
   line-height: 18px;
@@ -357,7 +359,7 @@ section .sidebar ul li a:hover {
   justify-content: space-around;
   flex-wrap: wrap;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .categories-items:hover {
   border-bottom: 1px solid #757575;
