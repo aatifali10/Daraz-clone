@@ -282,26 +282,19 @@ section .sidebar ul li a:hover {
   justify-content: space-between;
   background-color: #fff;
   align-items: center;
-  border-bottom: #757575;
-  border-width: 1px;
+  border-bottom: #d5d5d5 1px solid;
   padding: 10px;
 }
 .sale-now button {
   font-weight: 500;
   font-size: 14px;
-  float: right;
-  display: block;
   border: 1px solid #f85606;
   border-radius: 2px;
   color: #f85606;
-  height: 35px;
+  padding: 15px 10px;
   background-color: transparent;
-  line-height: 35px;
-  text-align: center;
   padding-left: 10px;
   padding-right: 10px;
-  margin-right: 11px;
-  margin-top: 13px;
 }
 .end {
   display: flex;
@@ -330,9 +323,31 @@ section .sidebar ul li a:hover {
 }
 .sale-items {
   width: 188px;
+  padding: 10px;
+}
+.sale-items span {
+  height: 36px;
+  line-height: 18px;
+  color: #000;
+  overflow: hidden;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+.sale-items p {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #f85606;
+}
+.sale-items h6 {
+  margin-top: 10px;
+  font-size: 15px;
+  color: #000;
+}
+.sale-items del {
+  color: #757575;
 }
 .sale-items img {
-  width: 188px;
+  width: 175px;
   height: 188px;
 }
 /* Categories */
@@ -370,20 +385,65 @@ section .sidebar ul li a:hover {
   width: 80%;
   margin: 0 auto;
 }
-.container h1 {
+.container-fluid h1 {
   font-family: Roboto-Regular;
-  font-size: 22px;
-  color: #000;
+  font-size: 27px;
+  color: #424242;
+  margin-top: 20px;
 }
-
 .just {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
+  padding: 10px 0;
+  gap: 10px;
 }
-.card-for {
-  width: 19%;
-  border: 1px solid black;
-  text-align: center;
+
+.just-items {
+  width: 181px;
   padding: 10px;
   background-color: #fff;
+}
+.just-items span {
+  height: 36px;
+  line-height: 18px;
+  color: #000;
+  overflow: hidden;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+.just-items p {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #f85606;
+}
+.just-items h6 {
+  margin-top: 10px;
+  font-size: 15px;
+  color: #000;
+}
+.just-items del {
+  color: #757575;
+}
+.just-items img {
+  width: 100%;
+}
+.star {
+  margin-top: 10px;
+}
+.star i {
+  color: #f85606;
+  font-size: 14px;
+}
+.btn {
+  font-family: Roboto-Medium;
+  padding: 20px 0;
+  display: block;
+  width: 387px;
+  font-size: 14px;
+  color: #f85606;
+  border: 1px solid #f85606;
+  cursor: pointer;
+  margin: 20px auto;
 }
