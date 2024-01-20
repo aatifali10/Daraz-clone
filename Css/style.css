@@ -360,25 +360,39 @@ section .sidebar ul li a:hover {
   margin-top: 20px;
 }
 .categories-items:hover {
-  box-shadow: 2px 2px #757575;
-  transform: scale(1);
+  border-bottom: 1px solid #757575;
+  border-left: 1px solid #757575;
+  border-right: 1px solid #757575;
+  box-shadow: 2px 2px 2px #757575;
+  z-index: 1;
+  transform: scale(1.02);
 }
 .categories-items {
   width: 12.5%;
-  height: 165.5px;
+  height: 195.5px;
   border-right: 1px solid #e2e2e2;
   border-bottom: 1px solid #e2e2e2;
   background-color: #fff;
   padding: 15px;
 }
 .categories-items img {
-  width: 100%;
+  width: 80%;
+  height: 60%;
 }
 .categories-items span {
+  /* margin: 8px 12px 0;
+  font-size: 14px;
+  color: #212121;
+  padding-bottom: 20px; */
   margin: 8px 12px 0;
   font-size: 14px;
   color: #212121;
-  padding-bottom: 20px;
+  line-height: 18px;
+  height: 36px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 /* just for you */
 .container-fluid {
@@ -404,6 +418,10 @@ section .sidebar ul li a:hover {
   width: 181px;
   padding: 10px;
   background-color: #fff;
+}
+.just-items:hover {
+  box-shadow: 5px 5px 5px #999;
+  transform: scale(1.01);
 }
 .just-items span {
   height: 36px;
