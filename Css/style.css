@@ -138,6 +138,8 @@ section .sidebar ul li a:hover {
   position: relative;
   width: 100%;
   height: 380px;
+  border-radius: 14px;
+  overflow: hidden;
 }
 
 .carousel img {
@@ -277,7 +279,7 @@ section .sidebar ul li a:hover {
   text-align: center;
   margin-top: 20px;
 }
-.categories-items:hover{
+.categories-items:hover {
   box-shadow: 2px 2px #757575;
   transform: scale(1);
 }
@@ -299,4 +301,26 @@ section .sidebar ul li a:hover {
   padding-bottom: 20px;
 }
 /* just for you */
+.container-fluid {
+  width: 80%;
+  margin: 0 auto;
+}
+.container h1 {
+  font-size: 30px;
+  color: black;
+}
 
+.just {
+  display: flex;
+  /* gap: 10px; */
+  width: 80%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.card-for {
+  width: 19%;
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+  background-color: #fff;
+}
