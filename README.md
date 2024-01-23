@@ -1,1 +1,1 @@
-https://admirable-alfajores-cea3d7.netlify.app
+https://aatif-ali-daraz-clone.netlify.app/
